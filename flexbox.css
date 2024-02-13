@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu button{
+    width: 50px; 
+   border-radius: 5px ;
+   border: 1px solid grey;
+   
+    
+   
+}
+
+.menu button img {
+color: grey;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+
+}
+
+.menu button:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+header div {
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+   
+    
+}
+
+.mlarodo {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.segment {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(1.JPG);
+    height: 700px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+   
+   
+}
+
+.cont {
+    animation-name: slideleft;
+    animation-duration: 2s;
+
+}
+@keyframes slideleft {
+    from{ transform: translateX(100%)}
+   
+}
+
+
+@keyframes fadein {
+     from{ background-color: black;}
+}
+
+.segment h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 20px;
+    
+}
+
+.segment button {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-weight: 800;
+    margin: 20px;
+    color: rgb(90, 0, 90);
+    background-color: rgb(255, 230, 89);
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 12px;
+
+   
+ 
+   
+}
+
+.segment button:hover {
+color:  rgb(255, 230, 89);
+background-color:purple ;
+}
+
+h1 {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.bt2 {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 1, 107);
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 9px;
+}
+
+.img1 {
+    width: 100%;
+    padding:20px;
+    margin: 0;
+    
+    
+}
+    
+p {
+    line-height: 2;
+}
+
+.tito {
+    text-align: center;
+}
+
+.defont {
+   
+}
+
+.programs{
+    background-color: rgb(253, 230, 246) ;
+    width: 100%;
+}
+
+.titodisc {
+    text-align: center;
+    margin: 0;
+}
+
+.pros {
+box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
+display: block;
+background-color: white;
+min-width: 400px;
+width: 32%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+margin-left: 17px;
+margin-bottom: 15px;
+float: left;
+}
+
+.readmore {
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    color:   rgb(148, 1, 107);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom:10px;
+}
+
+.readmore:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.pros img {
+    max-width: 100%
+}
+
+.pros h4 {
+    margin-left: 20px;
+}
+
+.curvy {
+    border-radius: 200px;
+
+}
+
+.grid  {
+    
+}
+
+@media screen and (max-width:600px) {
+    .pros, .section1, .section2, .section3, .pinkbox {width: 100%; }
+     
+    
+    
+}
+
+
+
+
+.pinkbox {
+    background-color: lightpink;
+    margin: 30px;
+    padding: 20px;
+   width: 600px;
+    float: left;
+    box-sizing: border-box;
+
+   
+   
+   
+   
+   
+}
+
+.pinkbox h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+}
+
+@media screen (max-width:550px) {
+    
+}
+
+.pinkboxes {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+   
+ 
+}
+
+footer {
+    clear: both;
+    background-color: rgb(215, 42, 215);
+}
+
+
+.mlaf {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white; 
+   
+}
+    
+.orid   {
+    float: left;
+}
+
+.icono {
+    width:30px;
+    margin-right: 10px;
+}
+
+.icons {
+   margin-left: 20px;
+}
+
+section h3 {
+    color: white;
+    
+}
+
+.section2 a {
+color:white;
+text-decoration: none;
+display: block;
+
+padding: 10px;
+
+}
+
+.section2 a:hover {
+    color:black;
+}
+
+.section3 p {
+color: white;
+margin: 0;
+}
+
+.mail {
+    height:30px;
+
+border-radius: 20px;
+border: 1px solid blacK;
+width: 85%;
+box-sizing: border-box;
+margin-left: 0;
+}
+
+.mail-button {
+    height: 30px;
+    width: 10%;
+    box-sizing: border-box;
+    margin-right: -5px;
+}
+
+.mailbox {
+    box-sizing: border-box;
+}
+
+section {
+    display: inline-block;
+   margin-left: 20px;
+   width: 400px;
+   margin-top: 30px;
+
+  
+
+
+}
+
+.abalameta {
+   display: flex;
+flex-wrap: wrap;
+     
+
+}
+
+hr{
+    border: 1px solid rgb(231, 231, 231, 0.5);
+}
