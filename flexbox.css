@@ -67,9 +67,14 @@ header {
     animation-name: slideleft;
     animation-duration: 2s;
     margin-left: 20px
+
     
 
 }
+.cont h1{
+font-size: 50px;
+}
+
 @keyframes slideleft {
     from{ transform: translateX(100%)}
    
@@ -114,7 +119,7 @@ background-color:purple ;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 20px;
     max-width: 90%;
    
