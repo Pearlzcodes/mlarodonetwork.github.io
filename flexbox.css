@@ -27,6 +27,10 @@ color: grey;
 
 }
 
+
+h1 {
+    color:  rgb(148, 1, 107) 
+}
 .menu button:hover {
     background-color: rgb(189, 189, 189);
 }
@@ -51,6 +55,7 @@ header {
 
 .segment {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(RDW.jpg);
+    background-position: center;
     height: 700px;
     margin: 0;
     display: flex;
@@ -59,11 +64,31 @@ header {
     background-size: cover;
     width: 100%;
     position: relative;
+    
 
    
    
 }
 
+.fade {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+p {
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {opacity: 1;}
+}
 
 
 .ham-menu {
@@ -76,8 +101,8 @@ header {
 }
 
 .ham-menu ol {
-    padding: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    width: 100%;
 }
 
 .ham-menu a {
@@ -85,6 +110,11 @@ header {
     color: rgba(0, 0, 0, 0.76);
     font-weight: 900;
     font: 600;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    
+
     
 }
 
@@ -105,7 +135,7 @@ font-size: 50px;
 }
 
 @keyframes slideleft {
-    from{ transform: translateX(100%)}
+    from{ transform: translateY(100%)}
    
 }
 
@@ -259,6 +289,10 @@ p {
     .grid{width: 100%; 
     display: flex;
 flex-wrap: wrap; }
+
+p{
+    font-size: 14px;
+}
      
     
     

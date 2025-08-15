@@ -10,7 +10,7 @@ const htmlContents = [
 "<div class='cont'><h1>Teachers' Conference</h1><a href='TC.html'><button>LEARN MORE</button></a></div>",
 "<div class='cont'><h1>Street Genius</h1><a href='SG.html'><button>LEARN MORE</button></a></div>",
 "<div class='cont'><h1>Quiz and Debate</h1><a href='QD.html'><button>LEARN MORE</button></a></div>",
-"<div class='cont'><h1>Schorlarship</h1><a href='SCHOLARSHIP.html'><button>LEARN MORE</button></a></div>",
+"<div class='cont'><h1>Scholarship</h1><a href='SCHOLARSHIP.html'><button>LEARN MORE</button></a></div>",
 "<div class='cont'><h1>Vocational Training</h1><a href='VT.html'><button>LEARN MORE</button></a></div>"
 
 ]
@@ -34,6 +34,12 @@ function changeDiv(){
     segment.innerHTML = htmlContents[index];
     segment.style.backgroundImage = backgroundImages[index];
     index++;
+
+    segment.classList.remove("fade");
+
+    void segment.offsetWidth;
+
+    segment.classList.add("fade");
 
 
     if (index >= htmlContents.length){
