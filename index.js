@@ -62,12 +62,12 @@ hamMenu.style.display = "none";
 
 
 function toggleHam() {
-    if(hamMenu.style.display === "none") {
-        hamMenu.style.display = "block"
+    if(hamMenu.style.display === "block") {
+        hamMenu.style.display = "none"
     }
 
     else {
-        hamMenu.style.display = "none";
+        hamMenu.style.display = "block";
     }
 }
 
