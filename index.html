@@ -230,8 +230,9 @@
     <div class="pinkboxes">
       <div class="pinkbox">
         <h3>Volunteer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et fugit voluptate animi dolor quod pariatur sunt, omnis velit repellendus mollitia deleniti inventore. </p>
-    </div>
+        <p>Every great Movement begins with people who care. Be part of something bigger! Your time! Your skills, Their future.</p>
+        <a style="margin-left: 20px;" href="#">Volunteer Now</a>
+      </div>
 
     <div class="pinkbox">
       <h3>Donate</h3>
@@ -250,7 +251,7 @@
       
             <div class="orid">
               <img
-                height="100px"
+                height="80px"
                 src="m larodo transparent.png"
                 alt=""
               />
@@ -262,9 +263,9 @@
             <br>
             <br>
           <div class="icons">
-            <a href=""><img  class="icono" src="facebook.svg" alt=""></a>
-            <a href=""><img  class="icono" src="instagram.svg" alt=""></a>
-            <a href=""><img  class="icono" src="twitter.svg" alt=""></a>
+            <a href="https://www.facebook.com/Mlarodonetwork/" target="_blank"><img  class="icono" src="facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/mlarodonetwork/" target="_blank"><img  class="icono" src="instagram.svg" alt=""></a>
+            <a href="https://youtube.com/@mlarodonetwork" target="_blank"><img  class="icono" src="youtube.svg" alt=""></a>
       
           </div>
         </section>
@@ -281,14 +282,30 @@
       
         <section class="section3">
           <h3>Subscribe Now</h3>
-          <p>Dont miss our future updayes! Get subscribed today</p>
+          <p>Dont miss our future updates! Get subscribed today</p>
          
          
-          <div class="mailbox">
-            <input class="mail" placeholder="Your mail here" name="email" type="email" name="" id="" >
-            <button class="mail-button" type="submit" for="email">&#x2709;</button>
-      
-          </div>
+          <form name="newsletter"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      action="/thanks.html">
+  <input type="hidden" name="form-name" value="newsletter" />
+  <p style="position:absolute;left:-9999px;">
+    <label>Leave this empty: <input name="bot-field" type="text" /></label>
+  </p>
+
+  <label style="color: white;">
+    Email
+    <input style="border: none; padding: 10px;" type="email" name="email" required />
+  </label>
+
+  <button style="border: none; padding: 10px; color: rgb(215, 42, 215); font-weight: bolder; margin-top: 10px;" type="submit">Subscribe</button>
+  <div data-netlify-recaptcha="true"></div>
+</form>
+
+
+
         </section>
       </div>
 
@@ -303,7 +320,7 @@
       
       ">Copyright &copy 2023 Mlarodo Network. All right resrved
         <br />
-        Powered by Oluwapelumi Ajadi
+        Powered by Pearlscodez
       </p>
 
      </footer>

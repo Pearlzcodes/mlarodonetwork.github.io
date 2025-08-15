@@ -351,14 +351,32 @@ footer {
     color: white; 
    
 }
+
+.section1 {
+
+   margin: 0;
+
+}
     
 .orid   {
     float: left;
+    
+}
+
+.ese {
+    display: flex;
+
+    
+    align-items: center;
 }
 
 .icono {
     width:30px;
     margin-right: 10px;
+}
+
+.icono:hover {background-color: purple;
+
 }
 
 .icons {
