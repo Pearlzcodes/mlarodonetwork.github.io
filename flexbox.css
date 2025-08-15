@@ -290,6 +290,8 @@ p {
     display: flex;
 flex-wrap: wrap; }
 
+
+
 p{
     font-size: 14px;
 }
@@ -451,8 +453,86 @@ hr{
     border: 1px solid rgb(231, 231, 231, 0.5);
 }
 
+
+
+
+
+.volunteer-form label{
+    color: white;
+    
+}
+
+.team {
+    background-color: rgba(201, 0, 111, 0.164);
+}
+
+.team-title{
+    text-align: center;
+}
+
+
+.team-container img {
+    width: 100%;
+}
+
+.team-name {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+
+}
+
+.team-title {
+    margin-top: 20px;
+}
+
+.title-team {
+    color: rgba(148, 1, 106, 0.637);
+    margin: 0 0 20px 20px;
+    font-size: 15px;
+
+}
+
+.team-containers {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    
+}
+
+.team-container {
+    width: calc(25% - 2rem);
+    background-color: white;
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.322);
+}
+
 @media screen and (max-width: 600px){
     .mlarodo {
        font-size: 20px; 
+       
     }
+
+    .team-container {
+        width: calc(50% - 2rem);
+        
+    }
+
+    .team-name {
+        margin: 0 0 0 5px;
+        font-size: 15px;
+    
+    }
+    
+    .team-title {
+        margin-top: 20px;
+    }
+    
+    .title-team {
+        color: rgba(148, 1, 106, 0.637);
+        margin: 0 0 20px 5px;
+        font-size: 11px;
+    
+    }
+    
 }

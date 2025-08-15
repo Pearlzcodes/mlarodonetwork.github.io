@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz & Debate</title>
+    <title>Teachers' Conference</title>
     <link rel="icon" href="m larodo transparent.png" />
     <link rel="stylesheet" href="flexbox.css" />
   </head>
@@ -31,10 +31,9 @@
 
     <div id="ham-menu" class="ham-menu">
       <li>
-        <ol><a href="#">Home</a></ol>
+        <ol><a href="index.html">Home</a></ol>
         <ol><a href="about.html">About Us</a></ol>
-        <ol><a href="team.html">Our Team</a></ol>
-        <ol><a href="#propro">Our Programs</a></ol>
+        <ol><a href="#index.html#propro">Our Programs</a></ol>
         <ol><a href="resources.html">Resources</a></ol>
         <ol><a href="news.html">News & Updates</a></ol>
         <ol><a href="contact.html">Contact Us</a></ol>
@@ -46,53 +45,80 @@
 
     <main>
         <h1 class="pagtitle" style="color: rgb(148, 1, 107)">
-          QUIZ & DEBATE
+         Voliunteers' Form
         </h1>
-        <p>
-            Our academic competition fosters critical thinking, teamwork, and healthy competition among students. The quiz tests their knowledge in various subjects, while the debate sharpens their reasoning, research, and public speaking skills. This platform celebrates intellectual excellence and encourages participants to engage in societal issues from an informed perspective. Winners receive awards and academic materials, inspiring them to strive for greatness.
-        </p>
-        <img style="width: 100%; padding: 20px;" class="pagpic" src="QD.jpg" alt="" />
-  
-        <div>
-          <h2 style="margin-left: 20px;">
-            Every person holds a <b style="color: rgb(148, 1, 107)">story</b>.
-            Help them write the best one.
-          </h2>
-          <p>
-            Every child deserves a chance. Every teenager deserves guidance. Every young mind deserves the opportunity to thrive.
-
-            At Motolani Larodo Network, we are sowing seeds of purpose, healing, and transformation into the hearts of the next generation—but we cannot do it alone.
-            
-            Your sponsorship, partnership, or donation can help a child stay in school, protect a girl from abuse, equip a boy with life-changing skills, or empower a teacher to shape more lives.
-            
-            Together, we can rewrite the future.
-            
-            Let your resources be the reason a teenager finds clarity instead of confusion. Let your partnership be the bridge between potential and purpose.
-            
-            *Sponsor a child. Support a program. Share in the vision.*
-            
-            We invite individuals, religious organisations, cooperate organizations, and institutions to join hands with us. The impact you help us make today will echo for generations.
-            
-            </p>
-          <a style="
-              margin: 20px;
-              display: flex;
-              justify-content: center;
-             
-  
-          " href=""><button
-          style=" background-color:  rgb(148, 1, 107);
-                  color:white;
-                  border: none;
-                  border-radius: 20px;
-                  padding:  10px 30px 10px 30px;
-          "
-          >&#8595 DONATE NOW</button></a>
-        </div>
-      </main>
-        <br>
-
+        <p>We believe that educators are nation builders. This annual conference brings teachers together for empowerment, encouragement, and capacity building. Through workshops and keynote addresses, we explore modern teaching strategies, emotional intelligence in the classroom, trauma-informed education, and the teacher’s role in shaping future leaders. It is a space for reflection, learning, and renewal for those who shape the minds of the next generation.</p>
     
+    
+
+<form class="volunteer-form"
+
+style="background-color: rgba(148, 1, 106, 0.801);
+margin: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+"
+name="volunteer"
+method="POST"
+data-netlify="true"
+netlify-honeypot="bot-field"
+action="/volunteer-thanks.html">
+
+<!-- Hidden fields -->
+<input type="hidden" name="form-name" value="volunteer">
+<p style="display:none;">
+<label>Don’t fill this out: <input name="bot-field"></label>
+</p>
+
+<!-- Form Fields -->
+<label>Full Name:
+    <br>
+<input type="text" name="name" required>
+</label>
+
+<label>Email:
+    <br>
+<input type="email" name="email" required>
+</label>
+
+<label>Phone Number:
+    <br>
+<input type="tel" name="phone" required>
+</label>
+
+<label>Area of Interest:
+    <br>
+<select name="interest" required>
+<option value="">--Select--</option>
+<option>Equity</option>
+<option>Empowerment</option>
+<option>Education</option>
+<option>Media</option>
+<option>Logistics</option>
+</select>
+</label>
+
+<label>Availability:
+    <br>
+<select name="availability" required>
+<option value="">--Select--</option>
+<option>Weekdays</option>
+<option>Weekends</option>
+<option>Anytime</option>
+</select>
+</label>
+
+<label>Why do you want to volunteer?
+    <br>
+<textarea name="reason" rows="4" required></textarea>
+</label>
+
+<button type="submit">Join as a Volunteer</button>
+</form>
+
+    </main>
+        
   
         <footer id="footer">
  
@@ -163,3 +189,10 @@
 <script src="index.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
