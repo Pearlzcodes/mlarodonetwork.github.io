@@ -1,6 +1,7 @@
 const hamMenu = document.getElementById('ham-menu');
 const segment = document.getElementById('segment');
 
+
 let index = Math.floor(Math.random()*8);
 
 const htmlContents = [
@@ -81,9 +82,9 @@ footNote.innerHTML =  `
 <section class="section2">
   <h3>Our Outreach</h3>
   <a href="BE.html">Basic Education</a>
-  <a href="RDW.html">Responsible Daughter's Workshop</a>
-  <a href="RSS.html">Responsible Son's Summit</a>
-  <a href="TC.html">Teacher's Conference</a>
+  <a href="RDW.html">Responsible Daughters' Workshop</a>
+  <a href="RSS.html">Responsible Sons' Summit</a>
+  <a href="TC.html">Teachers' Conference</a>
   <a href="SCHOLARSHIP.html">Scholarship Initiative</a>
 
 </section>
@@ -154,6 +155,15 @@ function toggleHam() {
     }
 
     else {
+        hamMenu.innerHTML = `
+<ol><a href="index.html">Home</a></ol>
+<ol><a href="about.html">About Us</a></ol>
+<ol><a href="team.html">Our Team</a></ol>
+<ol><a href="resources.html">Resources</a></ol>
+<ol><a href="donate.html">Donate</a></ol>
+<ol><a href="gallery.html">Photo Gallery</a></ol>
+
+`;
         hamMenu.style.display = "block";
     }
 }

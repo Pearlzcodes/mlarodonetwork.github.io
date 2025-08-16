@@ -16,6 +16,10 @@ body {
    
 }
 
+
+.pagtitle {
+    font-size: 35px;
+}
 .menu button img {
 color: grey;
 }
@@ -29,7 +33,8 @@ color: grey;
 
 
 h1 {
-    color:  rgb(148, 1, 107) 
+    color:  rgb(148, 1, 107);
+    font-size: 40px;
 }
 .menu button:hover {
     background-color: rgb(189, 189, 189);
@@ -116,7 +121,7 @@ p {
     font: 600;
     width: 100%;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     
 
     
@@ -203,7 +208,7 @@ p {
     background-color: rgb(148, 1, 107);
     border-radius: 30px;
     border: 2px solid white;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .img1 {
