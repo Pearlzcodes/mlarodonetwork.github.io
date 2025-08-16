@@ -49,6 +49,93 @@ function changeDiv(){
 
 
 
+const footNote = document.getElementById('footer');
+
+footNote.innerHTML =  `
+
+<div class="abalameta">
+<section class="section1">
+  <div class="ese">
+
+    <div class="orid">
+      <img
+        height="80px"
+        src="m larodo transparent.png"
+        alt=""
+      />
+    </div>
+    <div class="mlaf">Mlarodo</div>
+
+  </div>
+    <br>
+    <br>
+    <br>
+  <div class="icons">
+    <a href="https://www.facebook.com/Mlarodonetwork/" target="_blank"><img  class="icono" src="facebook.svg" alt=""></a>
+    <a href="https://www.instagram.com/mlarodonetwork/" target="_blank"><img  class="icono" src="instagram.svg" alt=""></a>
+    <a href="https://youtube.com/@mlarodonetwork" target="_blank"><img  class="icono" src="youtube.svg" alt=""></a>
+
+  </div>
+</section>
+
+<section class="section2">
+  <h3>Our Outreach</h3>
+  <a href="BE.html">Basic Education</a>
+  <a href="RDW.html">Responsible Daughter's Workshop</a>
+  <a href="RSS.html">Responsible Son's Summit</a>
+  <a href="TC.html">Teacher's Conference</a>
+  <a href="SCHOLARSHIP.html">Scholarship Initiative</a>
+
+</section>
+
+<section class="section3">
+  <h3>Subscribe Now</h3>
+  <p>Dont miss our future updates! Get subscribed today</p>
+ 
+ 
+  <form name="newsletter"
+method="POST"
+data-netlify="true"
+netlify-honeypot="bot-field"
+action="/thanks.html">
+<input type="hidden" name="form-name" value="newsletter" />
+<p style="position:absolute;left:-9999px;">
+<label>Leave this empty: <input name="bot-field" type="text" /></label>
+</p>
+
+<label style="color: white;">
+Email
+<input style="border: none; padding: 10px;" type="email" name="email" required />
+</label>
+
+
+
+<button style="border: none; padding: 10px; color: rgb(215, 42, 215); font-weight: bolder; margin-top: 10px;" type="submit">Subscribe</button>
+<div data-netlify-recaptcha="true"></div>
+</form>
+
+
+
+</section>
+</div>
+
+<hr>
+
+
+<p style="
+color: white;
+text-align: center;
+font-size: 20px;
+clear: both;
+
+">Copyright &copy 2023 Mlarodo Network. All right resrved
+<br />
+Powered by Pearlscodez
+</p>
+`
+
+
+
 changeDiv();
 
 setInterval(changeDiv, 5000);
