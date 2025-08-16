@@ -160,7 +160,7 @@ function toggleHam() {
 <ol><a href="about.html">About Us</a></ol>
 <ol><a href="team.html">Our Team</a></ol>
 <ol><a href="resources.html">Resources</a></ol>
-<ol><a href="donate.html">Donate</a></ol>
+<ol><a href="donate-form.html">Donate</a></ol>
 <ol><a href="gallery.html">Photo Gallery</a></ol>
 
 `;
