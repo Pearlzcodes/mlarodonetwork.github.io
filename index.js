@@ -129,7 +129,7 @@ text-align: center;
 font-size: 20px;
 clear: both;
 
-">Copyright &copy 2023 Mlarodo Network. All right resrved
+">Copyright &copy ${new Date().getFullYear()} Mlarodo Network. All right resrved
 <br />
 Powered by Pearlscodez
 </p>
