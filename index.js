@@ -86,6 +86,7 @@ footNote.innerHTML =  `
   <a href="RSS.html">Responsible Sons' Summit</a>
   <a href="TC.html">Teachers' Conference</a>
   <a href="SCHOLARSHIP.html">Scholarship Initiative</a>
+  <a href="SG.html">Street  Genius</a>
 
 </section>
 
