@@ -92,7 +92,7 @@ footNote.innerHTML =  `
 
 <section class="section3">
   <h3>Subscribe Now</h3>
-  <p>Dont miss our future updates! Get subscribed today</p>
+  <p>Dont miss our future updates! Get subscribed today!</p>
  
  
   <form name="newsletter"
@@ -130,7 +130,7 @@ text-align: center;
 font-size: 20px;
 clear: both;
 
-">Copyright &copy ${new Date().getFullYear()} Mlarodo Network. All right resrved
+">Copyright &copy ${new Date().getFullYear()} Mlarodo Network. All right reserved
 <br />
 Powered by Pearlscodez
 </p>

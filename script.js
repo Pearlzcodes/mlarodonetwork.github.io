@@ -75,6 +75,8 @@ function prevPhoto(){
   
 showPhoto();
 
+setInterval(nextPhoto,6000);
+
 
 
 
